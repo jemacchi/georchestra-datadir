@@ -3,15 +3,6 @@ server:
   instance-id: ${spring.application.name}:${spring.application.instance_id:${spring.cloud.client.ip-address}}:${server.port}
 spring:
   rabbitmq.host: localhost
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/georchestra
-    username: geonetwork
-    password: georchestra
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    jpa.generate-ddl: false
-    jpa.hibernate.ddl-auto: none
   cloud:
     config:
       discovery:
