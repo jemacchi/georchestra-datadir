@@ -18,8 +18,9 @@ eureka:
 
 gn:
   datadir: ${java.io.tmpdir}/gn-datadir
-  baseurl: http://geonetwork:8080
+  baseurl: http://geonetwork:8080/geonetwork
   legacy.url: http://geonetwork:8080/geonetwork
+  linkToLegacyGN4: true
   site:
     name: GeoNetwork
     organization: opensource
