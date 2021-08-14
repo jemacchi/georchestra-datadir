@@ -21,6 +21,7 @@ gn:
   baseurl: http://geonetwork:8080/geonetwork
   legacy.url: http://geonetwork:8080/geonetwork
   linkToLegacyGN4: true
+  language.default: fr
   site:
     name: GeoNetwork
     organization: opensource
