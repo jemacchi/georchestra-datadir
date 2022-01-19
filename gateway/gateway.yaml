@@ -2,6 +2,9 @@
 # configure target base URL's, headers and role based access, per service name.
 # Replaces security-proxy's targets-mapping.properties, headers-mapping.properties, and security-mappings.xml
 #
+demo.http2.target: https://http2demo:8443
+demo.ws.targt: http://wsdemo:8111
+
 georchestra:
   gateway:
     default-headers:
